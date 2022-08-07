@@ -1,0 +1,138 @@
+.header{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+}
+.logo{
+    margin-left: 70px;
+    font-size: 30px;
+    float: left;
+    position: relative;
+}
+.logo img{
+    max-width: 40px;
+}
+.logo b{
+    position: absolute;
+    left: 50px;
+    top: 5px;
+}
+.navbar ul{
+    position: absolute;
+    top: 50px;
+}
+.navbar li{
+    float: left;    
+    margin-right: 20px;
+    list-style: none;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.carousel{
+    background-image: url(./images/2.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center center;
+}
+.clear{
+    clear: both;
+}
+.intro{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+}
+.intro .divleft{
+    margin-top: 30px;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.intro .divright{
+    margin-top: 30px;
+    width: 50%;
+    background-image: url(./images/g1.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+.intro .btn{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+.info{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(230, 235, 240);
+    margin-top: 60px;
+}
+.info .content{
+    width: 70%;
+    height: 70px;
+    margin: auto;
+    padding-top: 30px;
+}
+.info .element{
+    width: 25%;
+    float: left;
+}
+.info .number{
+    float: left;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.info .text {
+    float: left;
+    max-width: 120px;
+}
+.event{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(230, 235, 240);
+    margin-top: 30px;
+}
+.event .content{
+    width: 70%;
+    height: 300px;
+    padding: 20px;
+    padding-left: 100px;
+    margin: auto;
+
+}
+.event .divleft{
+    width: 50%;
+}
+.event .box{
+    width: 100%;
+    height: 50px;
+}
+.event .picture{
+    width: 30%;
+    height: 200px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+#pic1{
+    background-image: url(./images/g9.jpg);
+}
+.event .text{
+    float: left;
+}
+.event .divright{
+    float: left;
+}
+header{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+#span{
+    color: rgb(255, 0, 76);
+}
